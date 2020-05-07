@@ -1,6 +1,6 @@
 [webservers]
 # Add hosts here
-172.22.22.102
+172.22.22.106
 
 
 [webservers:vars]
