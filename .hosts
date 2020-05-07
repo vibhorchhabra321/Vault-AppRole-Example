@@ -1,10 +1,10 @@
 [webservers]
 # Add hosts here
-192.168.33.30
+172.22.22.102
 
 
 [webservers:vars]
 # Local variables for Ansible playbooks
 ansible_ssh_user=vagrant
-github_user=vikram
+github_user=vibhor
 app_name=demoapp
