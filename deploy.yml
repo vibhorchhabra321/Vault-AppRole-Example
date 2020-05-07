@@ -36,11 +36,11 @@
   - name: Get Wrapped Secret ID from Vault
     become: yes
     uri:
-      url: http://172.20.20.10:8200/v1/auth/approle/role/{{RoleName}}/secret-id
+      url: http://172.22.22.105:8200/v1/auth/appRole/role/appGDL/secret-id
       method: POST
       status_code: 200
       headers:
-        X-Vault-Token: 6afd663d-375c-a761-a419-fab0bff26ef9
+        X-Vault-Token: s.7RsUekdsqPLmUX3c2IFZ9JCV
         x-vault-wrap-ttl: 60
     register: WSID
 
